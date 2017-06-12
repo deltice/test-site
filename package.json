@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "docusaurus": "0.0.2-q"
-  },
-  "scripts": {
-    "docusaurus": "docusaurus-build"
-  }
-}
