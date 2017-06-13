@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "docusaurus": "0.0.4-w"
+  },
+  "scripts": {
+    "docusaurus-start": "docusaurus-start",
+    "docusaurus-build": "docusaurus-build",
+    "docusaurus-publish": "docusaurus-publish",
+    "docusaurus-examples": "docusaurus-examples",
+    "compile": "babel core --out-dir core && babel src --out-dir src"
+  }
+}
