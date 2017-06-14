@@ -66,7 +66,7 @@ article p img {
 }
 
 a {
-  color: #2E8555;
+  color: ${mainColor};
   text-decoration: none;
 }
 
