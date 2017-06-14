@@ -66,7 +66,7 @@ article p img {
 }
 
 a {
-  color: ${mainColor};
+  color: #2E8555;
   text-decoration: none;
 }
 
@@ -104,7 +104,7 @@ blockquote {
 h1, h2, h3, h4 {
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
-  color: ${mainColor};
+  color: #2E8555;
 }
 
 header h2 {
@@ -114,7 +114,7 @@ header h2 {
 
 .homeContainer {
   background: #fff;
-  color: ${mainColor};
+  color: #2E8555;
   text-align: center;
 }
 
@@ -216,7 +216,7 @@ header h2 {
   text-align: left;
 }
 .container .wrapper h2 {
-  color: ${mainColor};
+  color: #2E8555;
   font-size: 22px;
   line-height: 1em;
   margin-top: 20px;
@@ -230,13 +230,13 @@ header h2 {
   padding: 10px 0;
 }
 .container .wrapper h3 {
-  color: ${mainColor};
+  color: #2E8555;
   font-size: 18px;
   margin-top: 10px;
   padding: 10px 0;
 }
 .container .wrapper h4 {
-  color: ${mainColor};
+  color: #2E8555;
   font-size: 16px;
   font-weight: 300;
   margin: 0;
@@ -307,7 +307,7 @@ header h2 {
   padding-top: 1em;
 }
 .mainContainer .wrapper .post .docPagination {
-  background: ${mainColor};
+  background: #2E8555;
   bottom: 0px;
   left: 0px;
   position: absolute;
@@ -476,7 +476,7 @@ header h2 {
 }
 .fixedHeaderContainer {
   box-sizing: border-box;
-  background: ${mainColor};
+  background: #2E8555;
   color: #fff;
   height: 50px;
   padding: 10px 0 8px;
@@ -543,9 +543,9 @@ header h2 {
 }
 .button {
   margin: 4px;
-  border: 1px solid ${mainColor};
+  border: 1px solid #2E8555;
   border-radius: 3px;
-  color: ${mainColor};
+  color: #2E8555;
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
@@ -556,7 +556,7 @@ header h2 {
   transition: background 0.3s, color 0.3s;
 }
 .button:hover {
-  background: ${mainColor};
+  background: #2E8555;
   color: #fff;
 }
 
@@ -610,19 +610,19 @@ input[type="search"] {
   right: 0 !important;
 }
 .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--category-header {
-  background: ${mainColor};
+  background: #2E8555;
   color: white;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight {
-  background-color: ${mainColor};
+  background-color: #2E8555;
   color: #fff;
 }
 .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--title .algolia-docsearch-suggestion--highlight,
 .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--subcategory-column .algolia-docsearch-suggestion--highlight {
-  color: ${mainColor};
+  color: #2E8555;
 }
 .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion__secondary,
 .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--subcategory-column {
@@ -671,7 +671,7 @@ code,
 a code,
 .mainContainer .wrapper a code,
 .mainContainer .wrapper a:focus code {
-  color: ${mainColor};
+  color: #2E8555;
   font-family: Hack, monospace;
   font-size: 90%;
   font-weight: 300;
@@ -688,7 +688,7 @@ a:hover code {
   font-family: 'source-code-pro', Menlo, 'Courier New', Consolas, monospace;
   font-size: 13px;
   line-height: 20px;
-  border-left: 4px solid ${mainColor};
+  border-left: 4px solid #2E8555;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
   padding: 5px 10px;
@@ -969,7 +969,7 @@ a:hover code {
   margin: 0;
 }
 .navigationSlider .slidingNav ul li a {
-  color: ${mainColor};
+  color: #2E8555;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -984,7 +984,7 @@ a:hover code {
 }
 .navigationSlider .slidingNav ul li a:focus,
 .navigationSlider .slidingNav ul li a:hover {
-  background: ${mainColor};
+  background: #2E8555;
 }
 
 .languages-icon {
@@ -1002,7 +1002,7 @@ a:hover code {
 }
 ul#languages-dropdown-items {
   display: flex;
-  background-color: ${mainColor};
+  background-color: #2E8555;
   flex-direction: column;
   min-width: 120px;
 }
@@ -1083,7 +1083,7 @@ ul#languages li {
     width: 100%;
   }
   .reactNavSearchWrapper input#search_input_react:focus, .reactNavSearchWrapper input#search_input_react:active {
-    background-color: ${mainColor};
+    background-color: #2E8555;
     color: #fff;
   }
   .reactNavSearchWrapper .algolia-docsearch-suggestion--subcategory-inline {
@@ -1115,7 +1115,7 @@ ul#languages li {
 
   ul#languages-dropdown-items {
     display: flex;
-    background-color: ${mainColor};
+    background-color: #2E8555;
     flex-direction: row;
   }
 }
@@ -1342,10 +1342,10 @@ nav.toc .toggleNav .navGroup h3 i:not(:empty) {
   transition: color 0.2s;
 }
 nav.toc .toggleNav .navGroup h3:hover {
-  color: ${mainColor};
+  color: #2E8555;
 }
 nav.toc .toggleNav .navGroup h3:hover i:not(:empty) {
-  color: ${mainColor};
+  color: #2E8555;
 }
 nav.toc .toggleNav .navGroup.navGroupActive {
   background: #e0e0e0;
@@ -1357,7 +1357,7 @@ nav.toc .toggleNav .navGroup.navGroupActive ul {
   padding-top: 10px;
 }
 nav.toc .toggleNav .navGroup.navGroupActive h3 {
-  background: ${mainColor};
+  background: #2E8555;
   color: #fff;
 }
 nav.toc .toggleNav ul {
@@ -1380,10 +1380,10 @@ nav.toc .toggleNav ul li a {
   transition: color 0.3s;
 }
 nav.toc .toggleNav ul li a:hover, nav.toc .toggleNav ul li a:focus {
-  color: ${mainColor};
+  color: #2E8555;
 }
 nav.toc .toggleNav ul li a.navItemActive {
-  color: ${mainColor};
+  color: #2E8555;
   font-weight: 600;
 }
 .docsSliderActive nav.toc .navBreadcrumb {
@@ -1576,7 +1576,7 @@ h6:hover .header-link {
   text-align: center;
 }
 .poweredByContainer {
-  background: ${mainColor};
+  background: #2E8555;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -1644,7 +1644,7 @@ h6:hover .header-link {
   padding-bottom: 80px;
 }
 .productShowcaseSection h2 {
-  color: ${mainColor};
+  color: #2E8555;
   font-size: 30px;
   line-height: 1em;
   margin-top: 20px;
@@ -1741,7 +1741,7 @@ div.video iframe {
   margin: 0 auto;
 }
 .showcaseSection .prose h1 {
-  color: ${mainColor};
+  color: #2E8555;
   font-family: "Helvetica Neue", Arial, sans-serif;
   text-align: center;
   padding: 1.4em 0 0.4em;
