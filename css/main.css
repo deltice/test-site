@@ -693,7 +693,7 @@ a:hover code {
   -webkit-overflow-scrolling: touch;
   padding: 5px 10px;
   margin: 14px 0 14px 20px;
-  background-color: rgba(153, 66, 79, 0.03);
+  background-color: rgba(46, 133, 85, 0.03);
 }
 
 .prism + .prism {
@@ -957,7 +957,7 @@ a:hover code {
   margin-top: 50px;
   width: 100%;
   padding: 0;
-  background: #7f2c39;
+  background: #205C3B;
   color: #fff;
 }
 .navigationSlider .slidingNav.slidingNavActive ul {
