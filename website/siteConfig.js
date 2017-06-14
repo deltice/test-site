@@ -37,6 +37,11 @@ const siteConfig = {
     root: '/test-site/docs/en/doc1.html',
     title: 'Docs',
   },
+  colors: {
+    mainColor: '#2E8555',
+    secondaryColor: '#205C3B',
+    prismColor: 'rgba(46, 133, 85, 0.03)',
+  },
 };
 
 const languages = require('./languages.js');

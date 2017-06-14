@@ -52,7 +52,7 @@ module.exports = {
       title: 'Need help?',
     },
     join: {
-      content: 'Ask quesitons about the documentation and project\n',
+      content: 'Ask questions about the documentation and project\n',
       title: 'Join the community',
     },
   },
@@ -73,5 +73,12 @@ module.exports = {
   },
   tagline: 'My Tagline',
   url: 'https://deltice.github.io',
-  
+  using: {
+    header: {
+      content: 'This project is used by many folks',
+      title: "Who's using this?",
+    },
+    prompt: 'Are you using this project?',
+    prompt_cta: 'Add your company',
+  },
 };
