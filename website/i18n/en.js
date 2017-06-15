@@ -37,6 +37,20 @@ module.exports = {
       title: 'Feature Two',
     },
   ],
+  /* strings for anything found in the markdown front matter basically */
+  'localized-strings': {
+    doc1: 'The First in a Series of Documents',
+    doc2: 'The Second in a Series of Documents',
+    doc3: 'The Third in a Series of Documents',
+    'First Category': 'First Category',
+    'Second Category': 'Second Category',
+    previous: 'Previous',
+    next: 'Continue Reading',
+    Docs: 'Docs',
+    API: 'API',
+    GitHub: 'GitHub',
+    Help: 'Help',
+  },
   promo: {
     doc1: 'Example Link',
     doc2: 'Example Link 2',
@@ -55,22 +69,7 @@ module.exports = {
       content: 'Ask questions about the documentation and project\n',
       title: 'Join the community',
     },
-  },
-
-  /* strings for anything found in the markdown front matter basically */
-  'localized-strings': {
-    doc1: 'The First in a Series of Documents',
-    doc2: 'The Second in a Series of Documents',
-    doc3: 'The Third in a Series of Documents',
-    'First Category': 'First Category',
-    'Second Category': 'Second Category',
-    previous: 'Previous',
-    next: 'Continue Reading',
-    Docs: 'Docs',
-    API: 'API',
-    GitHub: 'GitHub',
-    Help: 'Help',
-  },
+  },  
   tagline: 'My Tagline',
   url: 'https://deltice.github.io',
   using: {

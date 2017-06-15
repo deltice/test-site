@@ -1,0 +1,6 @@
+deployment:
+  website:
+    branch: master
+    owner: deltice
+    commands:
+      - cd website && GIT_USER=deltice npm run docusaurus-publish

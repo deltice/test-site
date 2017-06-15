@@ -11,9 +11,9 @@ const siteConfig = {
   title: 'Test Site',
   url: 'https://deltice.github.io',
   baseUrl: '/test-site/',
-  repo: '',
+  repo: 'deltice/test-site',
   users,
-  editUrl: '',
+  editUrl: 'https://github.com/deltice/test-site/edit/master/docs/',
   headerLinksInternal: [
     {
       section: 'docs',
@@ -38,7 +38,7 @@ const siteConfig = {
     title: 'Docs',
   },
   colors: {
-    mainColor: '#2E8555',
+    primaryColor: '#2E8555',
     secondaryColor: '#205C3B',
     prismColor: 'rgba(46, 133, 85, 0.03)',
   },
