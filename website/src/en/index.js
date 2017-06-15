@@ -1,4 +1,6 @@
-const React = require('React');
+"use strict";
+
+const React = require('react');
 const Site = require('../../core/Site.js');
 const Marked = require('../../core/Marked.js');
 

@@ -1,4 +1,6 @@
-const React = require('React');
+"use strict";
+
+const React = require('react');
 
 const githubButton = (
   <a
