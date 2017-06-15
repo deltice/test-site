@@ -1,6 +1,6 @@
 test:
   override:
-    - exit 0
+    - "true"
 
 deployment:
   website:
