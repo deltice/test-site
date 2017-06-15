@@ -5,7 +5,7 @@ const Site = require('../../core/Site.js');
 const Marked = require('../../core/Marked.js');
 
 const Container = require('../../core/Container.js');
-const GridBlock = require('../../core/Gridblock.js');
+const GridBlock = require('../../core/GridBlock.js');
 
 const siteConfig = require(process.cwd() + '/siteConfig.js');
 
