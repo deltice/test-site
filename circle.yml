@@ -6,4 +6,4 @@ deployment:
   website:
     branch: master
     commands:
-      - cd website && GIT_USER=deltice npm run docusaurus-publish
+      - cd website && npm update && GIT_USER=deltice npm run docusaurus-publish
