@@ -1,5 +1,6 @@
 module.exports = {
-  baseUrl: '/test-site/',
+  baseUrl: '/test-site/', /* base url for your repo */
+  /* strings for belowFold section of index.js */
   belowFold: {
     learn: {
       content: 'Talk about learning how to use this',
@@ -19,10 +20,12 @@ module.exports = {
       title: "Who's using this?",
     },
   },
+  /* strings for featureCallout section of index.js */
   featureCallout: {
     content: 'This is my feature callout',
     title: 'Feature callout title',
   },
+  /* strings for features section of index.js */
   features: [
     {
       content: 'This is the content of my feature',
@@ -37,7 +40,12 @@ module.exports = {
       title: 'Feature Two',
     },
   ],
-  /* strings for anything found in the markdown front matter basically */
+  /* 
+    strings found in markdown front matter:
+    id, previous, next
+    also strings in headerNav:
+    text
+  */
   'localized-strings': {
     doc1: 'The First in a Series of Documents',
     doc2: 'The Second in a Series of Documents',
@@ -51,11 +59,13 @@ module.exports = {
     GitHub: 'GitHub',
     Help: 'Help',
   },
+  /* strings for promo section of index.js */
   promo: {
     doc1: 'Example Link',
     doc2: 'Example Link 2',
     try: 'Try it out',
   },
+  /* strings for help.js page */
   support: {
     browse: {
       content: 'Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)\n',
@@ -70,8 +80,9 @@ module.exports = {
       title: 'Join the community',
     },
   },  
-  tagline: 'My Tagline',
+  tagline: 'My Tagline', /* tagline of site */
   url: 'https://deltice.github.io',
+  /* strings for users.js page */
   using: {
     header: {
       content: 'This project is used by many folks',
