@@ -19,3 +19,6 @@ dksjgnkladfsjglkdgla
 ## aklsjdf;lkasdl;fjadslå
 
 This is a change I have added to the doc !
+
+
+This is a link the [document one](/documentnumberone.md)
