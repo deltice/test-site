@@ -50,6 +50,8 @@ module.exports = {
     doc1: 'The First in a Series of Documents',
     doc2: 'The Second in a Series of Documents',
     doc3: 'The Third in a Series of Documents',
+    doc4: 'First other doc',
+    doc5: 'Second other doc',
     'First Category': 'First Category',
     'Second Category': 'Second Category',
     previous: 'Previous',

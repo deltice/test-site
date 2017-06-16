@@ -21,4 +21,4 @@ dksjgnkladfsjglkdgla
 This is a change I have added to the doc !
 
 
-This is a link to [document one](/docs/en/documentnumberone.md)
+This is a link to [document one](/docs/en/otherdoc.md)
