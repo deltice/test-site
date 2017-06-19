@@ -1,9 +1,7 @@
-"use strict";
-
 const React = require('react');
-const Site = require('../../core/Site.js');
 
-const Container = require('../../core/Container.js');
+const CompLibrary = require('../../core/CompLibrary.js');
+const Container = CompLibrary.Container;
 
 const siteConfig = require(process.cwd() + '/siteConfig.js');
 

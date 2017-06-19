@@ -1,10 +1,8 @@
-"use strict";
-
 const React = require('react');
-const Site = require('../../core/Site.js');
 
-const Container = require('../../core/Container.js');
-const GridBlock = require('../../core/GridBlock.js');
+const CompLibrary = require('../../core/CompLibrary.js');
+const Container = CompLibrary.Container;
+const GridBlock = CompLibrary.GridBlock;
 
 const siteConfig = require(process.cwd() + '/siteConfig.js');
 

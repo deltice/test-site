@@ -7,4 +7,4 @@ permalink: docs/en/doc4.html
 next: doc5
 ---
 
-this is another document lom
+this is another document

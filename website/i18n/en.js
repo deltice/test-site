@@ -47,13 +47,14 @@ module.exports = {
     text
   */
   'localized-strings': {
-    doc1: 'The First in a Series of Documents',
+    doc1: 'Docusaurus',
     doc2: 'The Second in a Series of Documents',
     doc3: 'The Third in a Series of Documents',
-    doc4: 'First other doc',
-    doc5: 'Second other doc',
-    'First Category': 'First Category',
-    'Second Category': 'Second Category',
+    doc4: 'Separate Sidebar Document 1',
+    doc5: 'Separate Sidebar Document 2',
+    'Docusaurus': 'Docusaurs Guide',
+    'First Category': 'Example Category 1',
+    'Second Category': 'Example Category 2',
     previous: 'Previous',
     next: 'Continue Reading',
     Docs: 'Docs',
