@@ -18,7 +18,7 @@ class Users extends React.Component {
     });
 
     return (
-      <Site language={this.props.language} config={siteConfig}>
+      <div>
         <div className="mainContainer">
           <Container padding={['bottom', 'top']}>
             <div className="showcaseSection">
@@ -39,7 +39,7 @@ class Users extends React.Component {
             </div>
           </Container>
         </div>
-      </Site>
+      </div>
     );
 
   }

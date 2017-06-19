@@ -1,7 +1,6 @@
 "use strict";
 
 const React = require('react');
-const Site = require('../../core/Site.js');
 const Marked = require('../../core/Marked.js');
 
 const Container = require('../../core/Container.js');
@@ -98,7 +97,7 @@ class Index extends React.Component {
       });
 
     return (
-      <Site language={language} config={siteConfig}>
+      <div>
         <HomeSplash
           language={language}
         />
@@ -173,7 +172,7 @@ class Index extends React.Component {
             </div>
           </div> 
         </div>
-      </Site>
+      </div>
     );
   }
 }

@@ -16,7 +16,7 @@ class Help extends React.Component {
     ];
 
     return (
-      <Site section="support" language={this.props.language} config={siteConfig}>
+      <div>
         <div className="docMainWrapper wrapper">
           <Container className="mainContainer documentContainer postContainer">
             <div className="post">
@@ -30,7 +30,7 @@ class Help extends React.Component {
             </div>
           </Container>
         </div>
-      </Site>
+      </div>
     );
   }
 }
