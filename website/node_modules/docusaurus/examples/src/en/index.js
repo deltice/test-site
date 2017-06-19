@@ -1,13 +1,11 @@
-"use strict";
-
 const React = require('react');
-const Marked = require('../../core/Marked.js');
 
-const Container = require('../../core/Container.js');
-const GridBlock = require('../../core/GridBlock.js');
+const CompLibrary = require('../../core/CompLibrary.js');
+const Marked = CompLibrary.Marked; /* Used to read markdown */
+const Container = CompLibrary.Container;
+const GridBlock = CompLibrary.GridBlock;
 
 const siteConfig = require(process.cwd() + '/siteConfig.js');
-
 
 class Button extends React.Component {
   render() {

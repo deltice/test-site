@@ -42,12 +42,13 @@ core/Footer.js
 example-docs/doc1.md
 example-docs/doc2.md
 example-docs/doc3.md
+example-docs/exampledoc4.md
+example-docs/exampledoc5.md
 i18n/en.js
 src/en/help.js
 src/en/index.js
 src/en/users.js
 languages.js
-publishConfig.js
 siteConfig.js
 ```
 
@@ -97,6 +98,16 @@ This will generate `.html` files from all of your docs and other pages included 
 Use CircleCI to publish your website whenever your project repo is updated. Configure your circle.yml file in your project repo to run commands to publish to GitHub Pages. An example is shown here:
 
 ```yaml
+machine:
+  node:
+    version: 6.10.3
+  npm:
+    version: 3.10.10
+
+test:
+  override:
+    - "true"
+
 deployment:
   website:
     branch: master
