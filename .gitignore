@@ -1,2 +1,2 @@
 .DS_Store
-website/node_modules/*
+./website/node_modules/*
