@@ -16,7 +16,7 @@ module.exports = {
     },
     using: {
       button: 'More Docusaurus Users',
-      content: 'This project is used by absolutely no one right now',
+      content: 'This project is used by all these people',
       title: "Who's using this?",
     },
   },
@@ -41,10 +41,9 @@ module.exports = {
     },
   ],
   /* 
-    strings found in markdown front matter:
-    id, previous, next
-    also strings in headerNav:
-    text
+    -strings found in markdown front matter:
+    id, previous, next, category
+    -'text' strings in headerNav
   */
   'localized-strings': {
     doc1: 'Docusaurus',
@@ -52,7 +51,7 @@ module.exports = {
     doc3: 'The Third in a Series of Documents',
     doc4: 'Separate Sidebar Document 1',
     doc5: 'Separate Sidebar Document 2',
-    'Docusaurus': 'Docusaurs Guide',
+    'Docusaurus': 'Docusaurus Guide',
     'First Category': 'Example Category 1',
     'Second Category': 'Example Category 2',
     previous: 'Previous',
@@ -61,6 +60,7 @@ module.exports = {
     API: 'API',
     GitHub: 'GitHub',
     Help: 'Help',
+    Blog: 'Blog'
   },
   /* strings for promo section of index.js */
   promo: {

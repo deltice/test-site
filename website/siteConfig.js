@@ -26,6 +26,7 @@ const siteConfig = {
     },
     {section: 'api', href: '/test-site/docs/LANGUAGE/doc4.html', text: 'API'},
     {section: 'help', href: '/test-site/LANGUAGE/help.html', text: 'Help'},
+    {section: 'blog', href: '/test-site/blog', text: 'Blog'}
   ],
   /* header links for links outside the site */
   headerLinksExternal: [

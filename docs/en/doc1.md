@@ -9,7 +9,7 @@ next: doc2
 
 ## Getting Started
 
-In your project repo, make sure you have a `docs` folder containing all of your documentation files written in markdown. Create a `website` folder inside which you will install and run docusaurus.
+In your project repo, make sure you have a `docs` folder containing all of your documentation files written in markdown. Create a `website` folder inside which you will install and run docusaurus. If you wish, you can also include a `blog` folder in your project repo at the same level as the `docs` folder for blog posts.
 
 Install Docusaurus using `npm`:
 
@@ -39,11 +39,11 @@ This will create the following files in your website folder:
 
 ```
 core/Footer.js
-example-docs/doc1.md
-example-docs/doc2.md
-example-docs/doc3.md
-example-docs/exampledoc4.md
-example-docs/exampledoc5.md
+example-docs/en/doc1.md
+example-docs/en/doc2.md
+example-docs/en/doc3.md
+example-docs/en/exampledoc4.md
+example-docs/en/exampledoc5.md
 i18n/en.js
 src/en/help.js
 src/en/index.js
@@ -58,9 +58,18 @@ siteConfig.js
 
 The provided example files contain configurations for an example project `deltice/test-site` and the documents in `example-docs/`. These are provided for your reference to help you configure your project. Documents in `example-docs/` are provided for your reference for how to write markdown files, including necessary front matter information, and are not necessary while all other generated files are needed to build and publish your website.
 
-First, configure the siteConfig.js file which has comments guiding you through what needs to be done and how each configuration affects your website.
+Blog posts should be written as markdown files with the following front matter:
+```
+---
+title: Blog Post Title
+author: Author Name
+authorURL: http://twitter.com/author <!-- (or some other link) -->
+authorFBID: 21315325 <!-- id to get author's picture -->
+---
+```
+In the blog post you should include a line `<!--truncate-->`. This will determine under which point text will be ignored when generating the preview of your blog post. Blog posts should have the file name format: `yyyy-mm-dd-your-file-name.md`.
 
-Then, configure the publishConfig.js file which has the information needed to publish your project to gh-pages.
+First, configure the siteConfig.js file which has comments guiding you through what needs to be done and how each configuration affects your website.
 
 Keep languages.js as is with just English enabled. Enter English strings for your website in i18n/en.js manually. In future updates, these files will be used by docusaurus to support translations/localization.
 
@@ -115,10 +124,10 @@ deployment:
       - git config --global user.email "test-site-bot@users.noreply.github.com"
       - git config --global user.name "Website Deployment Script"
       - echo "machine github.com login test-site-bot password $GITHUB_TOKEN" > ~/.netrc
-      - cd website && GIT_USER=test-site-bot npm run docusaurus-publish
+      - cd website && npm install && GIT_USER=test-site-bot npm run docusaurus-publish
 ```
 
-Note that a GitHub user `test-site-bot` was created to use just for publishing. Make sure to give your Git user push permissions for your project and to set a GITHUB_TOKEN environment variable in Circle if you choose to publish this way.
+Note that in this case a GitHub user `test-site-bot` is created to use just for publishing. Make sure to give your Git user push permissions for your project and to set a GITHUB_TOKEN environment variable in Circle if you choose to publish this way.
 
 If you wish to manually publish your website with the `docusaurus-publish` script, run the following example command with the appropriate variables for your project:
 
