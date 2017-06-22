@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "docusaurus": "1.0.0-alpha.0"
+    "docusaurus": "1.0.0-alpha.1"
   },
   "scripts": {
     "doc-start": "docusaurus-start",
