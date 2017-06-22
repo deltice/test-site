@@ -1,11 +1,11 @@
 {
   "devDependencies": {
-    "docusaurus": "0.0.9-c"
+    "docusaurus": "1.0.0-alpha.0"
   },
   "scripts": {
-    "docusaurus-start": "docusaurus-start",
-    "docusaurus-build": "docusaurus-build",
-    "docusaurus-publish": "docusaurus-publish",
-    "docusaurus-examples": "docusaurus-examples"
+    "doc-start": "docusaurus-start",
+    "doc-build": "docusaurus-build",
+    "doc-publish": "docusaurus-publish",
+    "doc-examples": "docusaurus-examples"
   }
 }
