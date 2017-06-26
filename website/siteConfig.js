@@ -39,7 +39,7 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/docusaurus.svg',
   footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  favicon: '/test-site/img/favicon.png',
   /* default link for docsSidebar */
   docsSidebarDefaults: {
     layout: 'docs',
@@ -56,15 +56,12 @@ const siteConfig = {
 
 const languages = require('./languages.js');
 
-const enabledLanguages = [];
-languages.filter(lang => lang.enabled).map(lang => {
-  enabledLanguages.push(lang);
-});
+const enabledLanguages = languages.filter(lang => lang.enabled);
 
 siteConfig['languages'] = enabledLanguages;
 
 siteConfig['en'] = require('./i18n/en.js');
-
+siteConfig['fr'] = require('./i18n/fr.js');
 /* INJECT LOCALIZED FILES BEGIN */
 /* INJECT LOCALIZED FILES END */
 
