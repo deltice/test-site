@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 /* List of projects/orgs using your project for the users page */
 const users = [
   {
@@ -52,16 +54,25 @@ const siteConfig = {
     secondaryColor: '#205C3B',
     prismColor: 'rgba(46, 133, 85, 0.03)', /* primaryColor in rgba form, with 0.03 alpha */
   },
+  tagline: 'My Tagline',
 };
 
-const languages = require('./languages.js');
+let languages;
+if (fs.existsSync('./languages.js')) {
+  languages = require('./languages.js');
+} else {
+  languages = [{
+    enabled: true,
+    name: 'English',
+    tag: 'en',
+  }];
+}
 
 const enabledLanguages = languages.filter(lang => lang.enabled);
 
 siteConfig['languages'] = enabledLanguages;
 
-siteConfig['en'] = require('./i18n/en.js');
-siteConfig['fr'] = require('./i18n/fr.js');
+// siteConfig['en'] = require('./i18n/en.js');
 /* INJECT LOCALIZED FILES BEGIN */
 /* INJECT LOCALIZED FILES END */
 

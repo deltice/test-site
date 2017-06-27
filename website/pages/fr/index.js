@@ -79,7 +79,7 @@ class HomeSplash extends React.Component {
 class Index extends React.Component {
   render() {
     let language = this.props.language;
-    if(language === 'undefined') {
+    if(language === undefined) {
       language = 'en';
     }
     const showcase = siteConfig.users

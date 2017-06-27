@@ -79,7 +79,7 @@ class HomeSplash extends React.Component {
 class Index extends React.Component {
   render() {
     let language = this.props.language;
-    if(language === 'undefined') {
+    if (language === undefined) {
       language = 'en';
     }
     const showcase = siteConfig.users
@@ -171,7 +171,7 @@ class Index extends React.Component {
 
           
           <div className="productShowcaseSection paddingBottom">
-            <h2>Who's Using This?</h2>
+            <h2>{"Who's Using This?"}</h2>
             <p>This project is used by all these people</p>
             <div className="logos">
               {showcase}
