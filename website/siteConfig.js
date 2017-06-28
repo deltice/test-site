@@ -60,6 +60,7 @@ const siteConfig = {
 let languages;
 if (fs.existsSync('./languages.js')) {
   languages = require('./languages.js');
+  siteConfig['en'] = require('./i18n/en.json');
 } else {
   languages = [{
     enabled: true,
@@ -71,9 +72,6 @@ if (fs.existsSync('./languages.js')) {
 const enabledLanguages = languages.filter(lang => lang.enabled);
 
 siteConfig['languages'] = enabledLanguages;
-
-siteConfig['en'] = require('./i18n/en.json');
-siteConfig['fr'] = require('./i18n/fr.js');
 
 /* INJECT LOCALIZED FILES BEGIN */
 /* INJECT LOCALIZED FILES END */
