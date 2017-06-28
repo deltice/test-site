@@ -6,6 +6,6 @@
     "examples": "docusaurus-examples"
   },
   "devDependencies": {
-    "docusaurus": "^1.0.0-alpha.4"
+    "docusaurus": "^1.0.0-alpha.7"
   }
 }
