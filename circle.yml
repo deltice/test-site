@@ -24,4 +24,4 @@ deployment:
       - crowdin --config crowdin.yaml upload sources --auto-update -b master
       - crowdin --config crowdin.yaml download -b master
       # build and publish website
-      - cd website && GIT_USER=test-site-bot npm run publish-gh-pages
+      - cd website && npm install && GIT_USER=test-site-bot npm run publish-gh-pages
