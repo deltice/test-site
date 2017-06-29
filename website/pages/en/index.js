@@ -173,7 +173,7 @@ class Index extends React.Component {
                 }
                 target="_self"
               >
-                More Docusaurus Users
+                More "Docusaurus" Users
               </a>
             </div>
           </div>
