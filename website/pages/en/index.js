@@ -177,7 +177,7 @@ class Index extends React.Component {
               {showcase}
             </div>
             <div className="more-users">
-              <a className="button" href={siteConfig.baseUrl + "users.html"} target="_self">
+              <a className="button" href={siteConfig.baseUrl + this.props.language + "/" + "users.html"} target="_self">
                 More Docusaurus Users
               </a>
             </div>

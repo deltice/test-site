@@ -30,7 +30,14 @@
       "Talk about trying this out": "Talk about trying this out",
       "This is another description of how this project is useful": "This is another description of how this project is useful",
       "This project is used by all these people": "This project is used by all these people",
-      "More Docusaurus Users": "More Docusaurus Users"
+      "More Docusaurus Users": "More Docusaurus Users",
+      "Feature One": "Feature One",
+      "Feature Two": "Feature Two",
+      "Feature Callout": "Feature Callout",
+      "Learn How": "Learn How",
+      "Try it Out": "Try it Out",
+      "Description": "Description",
+      "Who's Using This?": "Who's Using This?"
     },
     "help": {
       "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
