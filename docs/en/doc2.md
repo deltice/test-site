@@ -85,7 +85,7 @@ deployment:
       - cd website && npm install && GIT_USER=test-site-bot npm run publish-gh-pages
 ```
 
-The `crowdin` command uses a `crowdin.yaml` file that should be placed in your project directory to configure how and what files are uploaded/downloaded. Here is the an example `crowdin.yaml` file that should also work for you:
+The `crowdin` command uses a `crowdin.yaml` file that should be placed in your project directory to configure how and what files are uploaded/downloaded. Here is an example `crowdin.yaml` file that should also work for you:
 
 ```yaml
 project_identifier_env: CROWDIN_PROJECT_ID
