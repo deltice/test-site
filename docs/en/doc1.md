@@ -90,7 +90,7 @@ In the blog post you should include a line `<!--truncate-->`. This will determin
 
 ### Language Configurations
 
-If you wish to support websites for other languages, the `languages.js` file provides a list of what languages you wish to enable. Files in the `i18n` folder will provide localized versions of various strings.
+If you wish to support websites for other languages, the `languages.js` file provides a list of what languages you wish to enable. Files in the `i18n` folder will provide localized versions of various strings. More details on how to handle translations with crowdin can be found [here](/docs/en/doc2.md).
 
 If you only wish to have an English version of your site, the `i18n` folder and the `languages.js` file are not necessary to run Docusaurus and should be deleted. 
 
