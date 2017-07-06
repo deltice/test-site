@@ -42,7 +42,7 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: "img/docusaurus.svg",
   footerIcon: "img/docusaurus.svg",
-  favicon: "/test-site/img/favicon.png",
+  favicon: "img/favicon.png",
   /* default link for docsSidebar */
   docsSidebarDefaults: {
     layout: "docs",
@@ -57,7 +57,14 @@ const siteConfig = {
       "rgba(46, 133, 85, 0.03)" /* primaryColor in rgba form, with 0.03 alpha */
   },
   tagline: "My Tagline",
-  recruitingLink: "https://crowdin.com/project/test-site" /* translation site "help translate" link */
+  recruitingLink: "https://crowdin.com/project/test-site" /* translation site "help translate" link */,
+  /* remove this section to disable search bar */
+  algolia: {
+    apiKey: "", /* use your search-only api key */
+    indexName: "jest"
+  },
+  /* remove this to disable google analytics tracking */
+  gaTrackingId: ""
 };
 
 let languages;
