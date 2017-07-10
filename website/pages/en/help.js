@@ -4,8 +4,6 @@ const CompLibrary = require("../../core/CompLibrary.js");
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
-const translate = require("../../server/translate.js").translate;
-
 const siteConfig = require(process.cwd() + "/siteConfig.js");
 
 class Help extends React.Component {
@@ -34,7 +32,7 @@ class Help extends React.Component {
               <header className="postHeader">
                 <h2>Need help?</h2>
               </header>
-              <p><translate desc="statement">This project is maintained by a dedicated group of people.</translate></p>
+              <p>This project is maintained by a dedicated group of people.</p>
               <GridBlock contents={supportLinks} layout="threeColumn" />
             </div>
           </Container>
