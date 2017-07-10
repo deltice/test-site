@@ -85,8 +85,6 @@ const enabledLanguages = languages.filter(lang => lang.enabled);
 siteConfig["languages"] = enabledLanguages;
 
 /* INJECT LOCALIZED FILES BEGIN */
-siteConfig['en'] = require('./i18n/en.json');
-siteConfig['fr'] = require('./i18n/fr.json');
 /* INJECT LOCALIZED FILES END */
 
 module.exports = siteConfig;
