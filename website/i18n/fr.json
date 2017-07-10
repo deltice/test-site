@@ -1,0 +1,24 @@
+{
+  "localized-strings": {
+    "next": "Next",
+    "previous": "Previous",
+    "tagline": "My Tagline",
+    "doc1": "Docusaurus",
+    "Docusaurus": "Docusaurus",
+    "doc2": "document number 2",
+    "First Category": "First Category",
+    "doc3": "This is document number 3",
+    "Second Category": "Second Category",
+    "doc4": "Other Document",
+    "doc5": "Fifth Document",
+    "Docs": "Docs",
+    "API": "API",
+    "Help": "Help",
+    "Blog": "Blog",
+    "GitHub": "GitHub"
+  },
+  "pages-strings": {
+    "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)\\n|lom": "Please work the [documentation on this site.](/test-site/docs/en/doc1.html)\\n",
+    "This project is maintained by a dedicated group of people.|statement": "This just tells oyu that it is working"
+  }
+}
