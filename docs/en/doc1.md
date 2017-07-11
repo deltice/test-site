@@ -28,21 +28,34 @@ Inside of your `website` folder, create a `package.json` file with the following
 }
 ```
 
-Install Docusaurus using `npm`:
+Install Docusaurus using `npm` or `yarn`:
 
 ```
 npm install --save-dev docusaurus
+```
+
+or
+
+```
+yarn add docusaurus -dev
 ```
 
 ## Configuration
 
 ### Generate Examples
 
-To create example files for configuration, run `examples` using npm:
+To create example files for configuration, run `examples` using `npm` or `yarn`:
 
 ```
 npm run examples
 ```
+
+or
+
+```
+yarn run examples
+```
+
 
 This will create the following files/folders in your website folder:
 
@@ -116,6 +129,13 @@ To run your website locally run the script:
 npm run start
 ```
 
+or
+
+```
+yarn run start
+```
+
+
 This will start a server hosting your website locally at `localhost:3000`. This server will ignore any occurences `siteConfig.baseUrl` in URLs, e.g. `localhost:3000/your-site/index.html` will be the same as `localhost:3000/index.html`. Any changes to configured files will be reflected by refreshing the page, i.e. the server does not need to be restarted to show changes.
 
 
@@ -125,6 +145,12 @@ To create a static build of your website, run the script:
 
 ```
 npm run build
+```
+
+or
+
+```
+yarn run build
 ```
 
 This will generate `.html` files from all of your docs and other pages included in `pages`. This allows you to check whether or not all your files are being generated correctly. The build folder is inside Docusaurus's directory inside `node_modules`.
