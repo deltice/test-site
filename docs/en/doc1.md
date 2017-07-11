@@ -190,5 +190,5 @@ DEPLOY_USER=deltice GIT_USER=test-site-bot CIRCLE_PROJECT_USERNAME=deltice CIRCL
 
 ## More Information
 
-For details on how to set up translation support, read here.
-For more details on how Docusaurus functions, read here.
+For details on how to set up translation support, read [here](/docs/en/doc2.md).
+For details on how to set up search, read [here](/docs/en/doc3.md).

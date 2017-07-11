@@ -37,6 +37,11 @@ const siteConfig = {
       section: "github",
       href: "https://github.com/deltice/test-site",
       text: "GitHub"
+    },
+    {
+      section: "test",
+      href: "https://www.google.com/",
+      text: "Testing"
     }
   ],
   /* path to images for header/footer */

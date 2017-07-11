@@ -7,6 +7,6 @@
     "write-translations": "docusaurus-write-translations"
   },
   "devDependencies": {
-    "docusaurus": "^1.0.0-alpha.11"
+    "docusaurus": "^1.0.0-alpha.12"
   }
 }
