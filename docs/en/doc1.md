@@ -94,7 +94,7 @@ All images and other static assets you wish to include should be placed inside t
 ### Document and Blog Front Matters
 
 Documentation should contain front matter that follows this example:
-```
+```markdown
 ---
 id: doc1 <!-- used for docs to find each other and to map links -->
 title: Document Title
@@ -108,7 +108,7 @@ next: doc2 <!-- next doc on the sidebar for navigation -->
 ```
 
 Blog posts should be written as markdown files with the following front matter:
-```
+```markdown
 ---
 title: Blog Post Title
 author: Author Name
