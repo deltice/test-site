@@ -62,34 +62,16 @@ const siteConfig = {
       "rgba(46, 133, 85, 0.03)" /* primaryColor in rgba form, with 0.03 alpha */
   },
   tagline: "My Tagline",
-  recruitingLink: "https://crowdin.com/project/test-site" /* translation site "help translate" link */,
+  recruitingLink:
+    "https://crowdin.com/project/test-site" /* translation site "help translate" link */,
   /* remove this section to disable search bar */
   algolia: {
-    apiKey: "", /* use your search-only api key */
+    apiKey:
+      "833906d7486e4059359fa58823c4ef56" /* use your search-only api key */,
     indexName: "jest"
   },
   /* remove this to disable google analytics tracking */
   gaTrackingId: ""
 };
-
-let languages;
-if (fs.existsSync("./languages.js")) {
-  languages = require("./languages.js");
-} else {
-  languages = [
-    {
-      enabled: true,
-      name: "English",
-      tag: "en"
-    }
-  ];
-}
-
-const enabledLanguages = languages.filter(lang => lang.enabled);
-
-siteConfig["languages"] = enabledLanguages;
-
-/* INJECT LOCALIZED FILES BEGIN */
-/* INJECT LOCALIZED FILES END */
 
 module.exports = siteConfig;

@@ -1,0 +1,25 @@
+{
+  "localized-strings": {
+    "next": "lom",
+    "previous": "lom",
+    "tagline": "lom",
+    "doc1": "lom",
+    "Docusaurus": "lom",
+    "doc2": "lom",
+    "First Category": "lom",
+    "doc3": "lom",
+    "Second Category": "lom",
+    "doc4": "lom",
+    "doc5": "lom",
+    "Docs": "lom",
+    "API": "lom",
+    "Help": "lom",
+    "Blog": "lom",
+    "GitHub": "lom",
+    "Testing": "lom"
+  },
+  "pages-strings": {
+    "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "lom",
+    "This project is maintained by a dedicated group of people.|no description given": "lom"
+  }
+}
