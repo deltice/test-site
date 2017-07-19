@@ -15,7 +15,6 @@ const siteConfig = {
   url: "https://deltice.github.io" /* your github url */,
   baseUrl: "/test-site/" /* base url for your project */,
   projectName: "test-site",
-  repo: "deltice/test-site" /* repo for your project */,
   users,
   /* base url for editing docs, usage example: editUrl + 'en/doc1.md' */
   editUrl: "https://github.com/deltice/test-site/edit/master/docs/",
@@ -48,12 +47,6 @@ const siteConfig = {
   headerIcon: "img/docusaurus.svg",
   footerIcon: "img/docusaurus.svg",
   favicon: "img/favicon.png",
-  /* default link for docsSidebar */
-  docsSidebarDefaults: {
-    layout: "docs",
-    root: "/test-site/docs/en/doc1.html",
-    title: "Docs"
-  },
   /* colors for website */
   colors: {
     primaryColor: "#2E8555",
@@ -71,7 +64,8 @@ const siteConfig = {
     indexName: "jest"
   },
   /* remove this to disable google analytics tracking */
-  gaTrackingId: ""
+  gaTrackingId: "",
+  disableHeaderTitle: true
 };
 
 module.exports = siteConfig;

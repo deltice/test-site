@@ -12,13 +12,7 @@ class Help extends React.Component {
     const supportLinks = [
       {
         content:
-          <translate>Learn more using ' " \
-
-
-
-
-
-          \n\n the [documentation on this site.](/test-site/docs/en/doc1.html)</translate>,
+          "Learn more using \n\n the [documentation on this site.](/test-site/docs/en/doc1.html)",
         title: "Browse Docs"
       },
       {
@@ -39,7 +33,13 @@ class Help extends React.Component {
               <header className="postHeader">
                 <h2>Need help?</h2>
               </header>
-              <p>This project is maintained by a dedicated group of people.</p>
+              <p>This project is maintained 
+
+
+
+
+
+              by a dedicated group of people.</p>
               <GridBlock contents={supportLinks} layout="threeColumn" />
             </div>
           </Container>
