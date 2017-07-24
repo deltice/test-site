@@ -17,7 +17,6 @@ const siteConfig = {
   projectName: "test-site",
   users,
   /* base url for editing docs, usage example: editUrl + 'en/doc1.md' */
-  editUrl: "https://github.com/deltice/test-site/edit/master/docs/",
   /* header links for links on this site, 'LANGUAGE' will be replaced by whatever
      language the page is for, ex: 'en' */
   headerLinksInternal: [

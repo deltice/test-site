@@ -105,7 +105,6 @@ class Index extends React.Component {
                   title: "Feature Two"
                 }
               ]}
-              layout="fourColumn"
             />
           </Container>
 

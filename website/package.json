@@ -4,9 +4,13 @@
     "build": "docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "examples": "docusaurus-examples",
-    "write-translations": "docusaurus-write-translations"
+    "write-translations": "docusaurus-write-translations",
+    "gen-doc-sidebar": "docusaurus-gen-doc-sidebar"
   },
   "devDependencies": {
     "docusaurus": "^1.0.0-alpha.12"
+  },
+  "dependencies": {
+    "docusaurus": "^1.0.0-alpha.27"
   }
 }
