@@ -229,4 +229,4 @@ DEPLOY_USER=deltice GIT_USER=test-site-bot CIRCLE_PROJECT_USERNAME=deltice CIRCL
 For details on how to set up translation support, read [here](/docs/doc1.md).
 For details on how to set up documentation search, read [here](/docs/doc2.md).
 
-![alt-text](assets/doc-image.svg)
+![alt-text](assets/doc-image.png)
