@@ -1,7 +1,6 @@
 ---
 id: doc2
 title: Translations with Docusaurus
-permalink: docs/en/doc2.html
 ---
 
 ## Overview
