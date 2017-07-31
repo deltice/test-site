@@ -1,7 +1,7 @@
 ---
-id: doc4
+id: version-1.0-doc4
 title: Other Document
-permalink: docs/en/doc4.html
+permalink: docs/en/1.0/doc4.html
 ---
 
 A large part of site configuration is done by editing the `siteConfig.js` file.

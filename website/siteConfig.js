@@ -17,16 +17,17 @@ const siteConfig = {
   projectName: "test-site",
   users,
   /* base url for editing docs, usage example: editUrl + 'en/doc1.md' */
+  editUrl: "https://github.com/deltice/test-site/edit/master/docs/",
   /* header links for links on this site, 'LANGUAGE' will be replaced by whatever
      language the page is for, ex: 'en' */
   headerLinksInternal: [
     {
       section: "docs",
-      href: "/test-site/docs/LANGUAGE/doc1.html",
+      href: "/test-site/docs/doc1.html",
       text: "Docs"
     },
-    { section: "api", href: "/test-site/docs/LANGUAGE/doc4.html", text: "API" },
-    { section: "help", href: "/test-site/LANGUAGE/help.html", text: "Help" },
+    { section: "api", href: "/test-site/docs/doc4.html", text: "API" },
+    { section: "help", href: "/test-site/help.html", text: "Help" },
     { section: "blog", href: "/test-site/blog", text: "Blog" }
   ],
   /* header links for links outside the site */
@@ -64,7 +65,8 @@ const siteConfig = {
   },
   /* remove this to disable google analytics tracking */
   gaTrackingId: "",
-  disableHeaderTitle: true
+  disableHeaderTitle: true,
+  externalLinkTarget: "_blank"
 };
 
 module.exports = siteConfig;

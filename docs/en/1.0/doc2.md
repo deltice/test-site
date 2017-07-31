@@ -1,7 +1,7 @@
 ---
-id: doc2
+id: version-1.0-doc2
 title: Translations with Docusaurus
-permalink: docs/en/doc2.html
+permalink: docs/en/1.0/doc2.html
 ---
 
 ## Overview

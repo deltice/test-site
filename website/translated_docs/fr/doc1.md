@@ -2,7 +2,6 @@
 id: doc1
 title: Docusaurus
 sidebar_title: Distinct Sidebar Title
-permalink: docs/en/doc1.html
 ---
 
 ## Getting Started
@@ -227,16 +226,7 @@ DEPLOY_USER=deltice GIT_USER=test-site-bot CIRCLE_PROJECT_USERNAME=deltice CIRCL
 
 ## More Information
 
-For details on how to set up translation support, read [here](/docs/en/translation.md).
-For details on how to set up documentation search, read [here](/docs/en/search.md).
+For details on how to set up translation support, read [here](/docs/doc1.md).
+For details on how to set up documentation search, read [here](/docs/doc2.md).
 
-
-```latex
-@article{bojanowski2016enriching,
-  title={Enriching Word Vectors with Subword Information},
-  author={Bojanowski, Piotr and Grave, Edouard and Joulin, Armand and Mikolov, Tomas},
-  journal={arXiv preprint arXiv:1607.04606},
-  year={2016}
-}
-```
-
+![alt-text](assets/doc-image.svg)

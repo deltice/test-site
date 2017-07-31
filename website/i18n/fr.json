@@ -1,0 +1,25 @@
+{
+  "localized-strings": {
+    "next": "lom",
+    "previous": "lom",
+    "tagline": "lom",
+    "doc1": "lom",
+    "Distinct Sidebar Title": "lom",
+    "doc2": "lom",
+    "doc3": "lom",
+    "doc4": "lom",
+    "doc5": "lom",
+    "Docs": "lom",
+    "API": "lom",
+    "Help": "lom",
+    "Blog": "lom",
+    "GitHub": "lom",
+    "Testing": "lom",
+    "Docusaurus": "lom",
+    "First Category": "lom",
+    "Second Category": "lom"
+  },
+  "pages-strings": {
+    "Learn more using ' \" \\ \\n\\n the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using ' \" \\ \\n\\n the [documentation on this site.](/test-site/docs/en/doc1.html)"
+  }
+}

@@ -1,7 +1,7 @@
 ---
-id: doc3
+id: version-1.0-doc3
 title: Searching Documentation
-permalink: docs/en/doc3.html
+permalink: docs/en/1.0/doc3.html
 ---
 
 ## Algolia Search Integration

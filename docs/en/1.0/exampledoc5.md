@@ -1,7 +1,7 @@
 ---
-id: doc5
+id: version-1.0-doc5
 title: Fifth Document
-permalink: docs/en/doc5.html
+permalink: docs/en/1.0/doc5.html
 ---
 
 Docusaurus supports some extra features when writing documentation in markdown.
@@ -12,9 +12,9 @@ You can use relative urls to other documentation files which will automatically 
 
 Example:
 ```
-[This links to another document](/docs/en/other-document.md)
+[This links to another document](/docs/en/1.0/other-document.md)
 ```
-If the permalink in the header of `other-document.md` is `/docs/en/other-document.html`, this markdown will automatically get converted into a link to `/docs/en/other-document.html` once it gets rendered.
+If the permalink in the header of `other-document.md` is `/docs/en/1.0/other-document.html`, this markdown will automatically get converted into a link to `/docs/en/1.0/other-document.html` once it gets rendered.
 
 This can help when you want to navigate through docs on GitHub since the links there will be functional links to other documents (still on GitHub), but the documents will have the correct html links when they get rendered.
 

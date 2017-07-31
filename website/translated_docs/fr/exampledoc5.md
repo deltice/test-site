@@ -1,7 +1,6 @@
 ---
 id: doc5
 title: Fifth Document
-permalink: docs/en/doc5.html
 ---
 
 Docusaurus supports some extra features when writing documentation in markdown.

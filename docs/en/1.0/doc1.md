@@ -1,8 +1,8 @@
 ---
-id: doc1
+id: version-1.0-doc1
 title: Docusaurus
 sidebar_title: Distinct Sidebar Title
-permalink: docs/en/doc1.html
+permalink: docs/en/1.0/doc1.html
 ---
 
 ## Getting Started
@@ -101,7 +101,7 @@ The `blog-examples-from-docusaurus` and `docs-examples-from-docusaurus` folders 
 
 ### How to Configure Your Site
 
-Configure the `siteConfig.js` file which has comments guiding you through what needs to be done and how each configuration affects your website. You can also refer [here](/docs/en/site-configuration.md) for more details.
+Configure the `siteConfig.js` file which has comments guiding you through what needs to be done and how each configuration affects your website. You can also refer [here](/docs/en/1.0/site-configuration.md) for more details.
 
 Customize `core/Footer.js` which will serve as the footer for each page on your website.
 
@@ -227,16 +227,14 @@ DEPLOY_USER=deltice GIT_USER=test-site-bot CIRCLE_PROJECT_USERNAME=deltice CIRCL
 
 ## More Information
 
-For details on how to set up translation support, read [here](/docs/en/translation.md).
-For details on how to set up documentation search, read [here](/docs/en/search.md).
+For details on how to set up translation support, read [here](/docs/en/1.0/translation.md).
+For details on how to set up documentation search, read [here](/docs/en/1.0/search.md).
 
 
-```latex
-@article{bojanowski2016enriching,
-  title={Enriching Word Vectors with Subword Information},
-  author={Bojanowski, Piotr and Grave, Edouard and Joulin, Armand and Mikolov, Tomas},
-  journal={arXiv preprint arXiv:1607.04606},
-  year={2016}
-}
+```java
+  @Override
+  public ReactImageView createViewInstance(ThemedReactContext context) {
+    return new ReactImageView(context, Fresco.newDraweeControllerBuilder(), mCallerContext);
+  }
 ```
 
