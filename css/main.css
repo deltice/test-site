@@ -701,7 +701,6 @@ a:hover code {
 .prism + .prism {
   margin-top: 14px;
 }
-
 .prism table {
   background: none;
   border: none;
@@ -1951,9 +1950,4 @@ footer .fbOpenSource:hover {
 footer .copyright {
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
-}
-
-.navigationSlider .slidingNav ul li a:focus,
-.navigationSlider .slidingNav ul li a:hover {
-  background: #205C3B;
 }
